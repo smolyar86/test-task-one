@@ -118,5 +118,5 @@ $user = $repository->getUserById($userId)
 ```php
 $repository = new \App\Repository\UserRepository();
 $page1 = $repository->getUsers(1, 25); //страница 1
-$page2 = $repository->getUsers(2, 25); //страница 1
+$page2 = $repository->getUsers(2, 25); //страница 2
 ```
